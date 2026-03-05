@@ -1,7 +1,7 @@
 BUILDTYPE='Release'
 
 # on MacOS, do not build universal binaries by default
-ARCH=''
+ARCH='arm64'
 
 # by default we do NOT build 32bit on 64bit system
 LLVM_BUILD_32_BITS=0
