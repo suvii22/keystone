@@ -42,6 +42,14 @@ See [COMPILE.md](docs/COMPILE.md) file for how to compile and install Keystone.
 
 More documentation is available in [docs/README.md](docs/README.md).
 
+Possible errors on Mac: ERROR: fail to load the dynamic library
+```
+mkdir -p build
+cd build
+../make-share.sh
+cp llvm/lib/libkeystone.dylib YOUR-PATH/site-packages/keystone/
+cp llvm/lib/libkeystone.0.dylib YOUR-PATH/site-packages/keystone/
+```
 
 Contact
 -------
